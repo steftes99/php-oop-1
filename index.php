@@ -32,8 +32,13 @@
     $twows->title = 'The Wolf of Wall Street';
     $twows->setLength(180);
 
+    $pulp_fiction = new Movie('Quentin Tarantino');
+    $pulp_fiction->title = 'Pulp Fiction';
+    $pulp_fiction->setLength(154);
+
     
 
-    var_dump($twows)
+    var_dump($twows);
+    var_dump($pulp_fiction)
 
 ?>
